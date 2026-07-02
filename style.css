@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 10vh 25vw;
+}
+
+
+.content{
+    width: 50vw;
+    height: 80vh;
+    /* margin: 10vh 25vw; */
+}
+
+
+
+.content img{
+    width:100%;
+    height:90%;
+    display: block;
+}
+
+.btn{
+    width: 100%;
+    height: 10%;
+    font-size: 3rem;
+    background-color: burlywood;
+    background: linear-gradient(to right, rgb(250, 193, 118), #d8354bd0, rgb(149, 149, 206));
+}
