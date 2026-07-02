@@ -1,26 +1,23 @@
 *{
     margin: 0%;
     padding: 0%;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body{
     width: 100vw;
     height: 100vh;
+    padding: 10vh 25vw;
 }
 
 
 .content{
     width: 50vw;
     height: 80vh;
-    margin: 10vh 25vw;
+    /* margin: 10vh 25vw; */
 }
 
-/* .content{
-    width:25vw;
-    height:25vw;
-    margin:10vh auto;
-} */
+
 
 .content img{
     width:100%;
@@ -34,5 +31,4 @@ body{
     font-size: 3rem;
     background-color: burlywood;
     background: linear-gradient(to right, rgb(250, 193, 118), #d8354bd0, rgb(149, 149, 206));
-    /* background: radial-gradient(yellow, red, blue); */
 }
